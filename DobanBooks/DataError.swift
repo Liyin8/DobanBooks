@@ -13,5 +13,5 @@ enum DataError: Error {
     case entityExistsError(String)
     case deteleError(String)
     case updataError(String)
-    
+    case Error(String)
 }
