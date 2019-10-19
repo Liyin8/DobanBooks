@@ -7,10 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA3F09452359556000883075 /* CategoriesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3F09442359556000883075 /* CategoriesController.swift */; };
+		BA3F09472359610200883075 /* CategoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3F09462359610200883075 /* CategoriesCell.swift */; };
+		BAA4E294235A900900F6BBC8 /* addCategoriesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA4E293235A900900F6BBC8 /* addCategoriesController.swift */; };
+		BAA4E296235ABA5700F6BBC8 /* UIAlartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA4E295235ABA5700F6BBC8 /* UIAlartController.swift */; };
+		BAA4E298235ABC2900F6BBC8 /* CategoryTimeList.plist in Resources */ = {isa = PBXBuildFile; fileRef = BAA4E297235ABC2900F6BBC8 /* CategoryTimeList.plist */; };
+		BAA4E29B235AC0F000F6BBC8 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA4E299235AC0EF00F6BBC8 /* DateExtensions.swift */; };
+		BAA4E29C235AC0F000F6BBC8 /* QrCodeUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA4E29A235AC0EF00F6BBC8 /* QrCodeUtils.swift */; };
 		BAC301642355CBCE00FAFD88 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC301632355CBCE00FAFD88 /* Repository.swift */; };
 		BAC301662355CC8900FAFD88 /* DataViewModelDelege.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC301652355CC8900FAFD88 /* DataViewModelDelege.swift */; };
 		BACBCE182351565E0095DB6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACBCE172351565E0095DB6B /* AppDelegate.swift */; };
-		BACBCE1A2351565E0095DB6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACBCE192351565E0095DB6B /* ViewController.swift */; };
 		BACBCE1D2351565E0095DB6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BACBCE1B2351565E0095DB6B /* Main.storyboard */; };
 		BACBCE202351565E0095DB6B /* DobanBooks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BACBCE1E2351565E0095DB6B /* DobanBooks.xcdatamodeld */; };
 		BACBCE222351565F0095DB6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BACBCE212351565F0095DB6B /* Assets.xcassets */; };
@@ -36,11 +42,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA3F09442359556000883075 /* CategoriesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesController.swift; sourceTree = "<group>"; };
+		BA3F09462359610200883075 /* CategoriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCell.swift; sourceTree = "<group>"; };
+		BAA4E293235A900900F6BBC8 /* addCategoriesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addCategoriesController.swift; sourceTree = "<group>"; };
+		BAA4E295235ABA5700F6BBC8 /* UIAlartController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlartController.swift; sourceTree = "<group>"; };
+		BAA4E297235ABC2900F6BBC8 /* CategoryTimeList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CategoryTimeList.plist; sourceTree = "<group>"; };
+		BAA4E299235AC0EF00F6BBC8 /* DateExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DateExtensions.swift; path = ../../../Downloads/DateExtensions.swift; sourceTree = "<group>"; };
+		BAA4E29A235AC0EF00F6BBC8 /* QrCodeUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QrCodeUtils.swift; path = ../../../Downloads/QrCodeUtils.swift; sourceTree = "<group>"; };
 		BAC301632355CBCE00FAFD88 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		BAC301652355CC8900FAFD88 /* DataViewModelDelege.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewModelDelege.swift; sourceTree = "<group>"; };
 		BACBCE142351565E0095DB6B /* DobanBooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DobanBooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BACBCE172351565E0095DB6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BACBCE192351565E0095DB6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BACBCE1C2351565E0095DB6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BACBCE1F2351565E0095DB6B /* DobanBooks.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DobanBooks.xcdatamodel; sourceTree = "<group>"; };
 		BACBCE212351565F0095DB6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -112,12 +124,12 @@
 				BACBCE4423516A900095DB6B /* Views */,
 				BACBCE4323516A840095DB6B /* Models */,
 				BACBCE172351565E0095DB6B /* AppDelegate.swift */,
-				BACBCE192351565E0095DB6B /* ViewController.swift */,
 				BACBCE1B2351565E0095DB6B /* Main.storyboard */,
 				BACBCE212351565F0095DB6B /* Assets.xcassets */,
 				BACBCE232351565F0095DB6B /* LaunchScreen.storyboard */,
 				BACBCE262351565F0095DB6B /* Info.plist */,
 				BACBCE1E2351565E0095DB6B /* DobanBooks.xcdatamodeld */,
+				BAA4E297235ABC2900F6BBC8 /* CategoryTimeList.plist */,
 			);
 			path = DobanBooks;
 			sourceTree = "<group>";
@@ -145,6 +157,7 @@
 		BACBCE4423516A900095DB6B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BA3F09462359610200883075 /* CategoriesCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -152,6 +165,8 @@
 		BACBCE4523516AB10095DB6B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BA3F09442359556000883075 /* CategoriesController.swift */,
+				BAA4E293235A900900F6BBC8 /* addCategoriesController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -159,6 +174,8 @@
 		BACBCE4623516ABA0095DB6B /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				BAA4E299235AC0EF00F6BBC8 /* DateExtensions.swift */,
+				BAA4E29A235AC0EF00F6BBC8 /* QrCodeUtils.swift */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -171,6 +188,7 @@
 				BACECA6A23540FF0006C96E0 /* BookRepository.swift */,
 				BAC301632355CBCE00FAFD88 /* Repository.swift */,
 				BAC301652355CC8900FAFD88 /* DataViewModelDelege.swift */,
+				BAA4E295235ABA5700F6BBC8 /* UIAlartController.swift */,
 			);
 			name = Persists;
 			sourceTree = "<group>";
@@ -257,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BACBCE252351565F0095DB6B /* LaunchScreen.storyboard in Resources */,
+				BAA4E298235ABC2900F6BBC8 /* CategoryTimeList.plist in Resources */,
 				BACBCE222351565F0095DB6B /* Assets.xcassets in Resources */,
 				BACBCE1D2351565E0095DB6B /* Main.storyboard in Resources */,
 			);
@@ -276,16 +295,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA3F09472359610200883075 /* CategoriesCell.swift in Sources */,
 				BACBCE4D235181950095DB6B /* DataError.swift in Sources */,
 				BACBCE4923516B100095DB6B /* VMCategory.swift in Sources */,
-				BACBCE1A2351565E0095DB6B /* ViewController.swift in Sources */,
 				BACECA6D23541DE4006C96E0 /* BookFactory.swift in Sources */,
+				BA3F09452359556000883075 /* CategoriesController.swift in Sources */,
+				BAA4E29C235AC0F000F6BBC8 /* QrCodeUtils.swift in Sources */,
 				BACECA672353F535006C96E0 /* CategoryFactory.swift in Sources */,
+				BAA4E294235A900900F6BBC8 /* addCategoriesController.swift in Sources */,
 				BAC301642355CBCE00FAFD88 /* Repository.swift in Sources */,
+				BAA4E296235ABA5700F6BBC8 /* UIAlartController.swift in Sources */,
 				BACBCE182351565E0095DB6B /* AppDelegate.swift in Sources */,
 				BACECA692354020F006C96E0 /* VmBook.swift in Sources */,
 				BAC301662355CC8900FAFD88 /* DataViewModelDelege.swift in Sources */,
 				BACBCE4B23516BB00095DB6B /* CatrgoryRepository.swift in Sources */,
+				BAA4E29B235AC0F000F6BBC8 /* DateExtensions.swift in Sources */,
 				BACBCE202351565E0095DB6B /* DobanBooks.xcdatamodeld in Sources */,
 				BACECA6B23540FF0006C96E0 /* BookRepository.swift in Sources */,
 			);
